@@ -12,14 +12,15 @@
     <script src="GuessMyNumber.js"></script>
 
     <h1>Gjett mitt tall.</h1>
-    <p>Jeg har valgt et tall mellom 1 og 100. Gjett tallet mitt!</p>
+    <p>Jeg har valgt et tall mellom 1 og 100. Du har 10 forsøk på å gjette riktig tall.</p>
 
     <input type="number" id="guess" min="1" max="100" />
 
     <button type="button" onclick="guessYourNumber()">Gjett!</button>
 
-    <p id="message"></p>
-    <p id="ifYouWon"></p>
+    <ul id="outputtext"></ul>
+
+    <button type="button" onclick="spilleIgjen()">Spill igjen!</button>
 
 </body>
 
